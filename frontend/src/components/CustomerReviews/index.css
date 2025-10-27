@@ -1,0 +1,53 @@
+.customer-reviews-section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 85%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px){
+    .customer-reviews-section{
+        width: 100%;
+    }
+
+}
+.customer-reviews-section-heading{
+     font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fcb017;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.customer-reviews-section-sub-heading{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-align: center;
+}
+.reviews-list{
+    margin-top: 40px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+@media screen and (max-width: 768px){
+    .reviews-list{
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+}

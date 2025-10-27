@@ -1,0 +1,49 @@
+.join-tiffinbox-family {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+.section-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fcb017;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.section-sub-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-align: center;
+}
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community-pic {
+  height: 180px;
+  width: 180px;
+}
+@media screen and (max-width: 768px) {
+  .join-tiffinbox-family {
+    width: 100%;
+  }
+  .images-container {
+    flex-direction: column;
+    gap: 20;
+  }
+  .header-content-container {
+    text-align: center;
+  }
+}

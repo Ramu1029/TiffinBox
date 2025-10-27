@@ -1,0 +1,117 @@
+.speciality-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .speciality-section {
+    width: 100%;
+  }
+}
+.section-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fcb017;
+  text-transform: uppercase;
+  margin: 0;
+}
+.section-sub-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.specaility-details-layout {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .specaility-details-layout {
+    flex-direction: column;
+  }
+}
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+}
+.feature-item-left {
+  text-align: right;
+}
+.feature-item-right {
+  text-align: left;
+}
+
+.feature-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.feature-paragraph {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.margin-right {
+  margin-right: 35px;
+}
+.margin-left {
+  margin-left: 35px;
+}
+.special-food-container {
+  background-color: #0c0c0c;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.special-food-item {
+  height: 380px;
+  width: 380px;
+}
+@media screen and (max-width: 768px) {
+  .special-food-container {
+    height: 420px;
+    width: 420px;
+  }
+  .special-food-item {
+    height: 300px;
+    width: 300px;
+  }
+  .feature-item-left{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .feature-item-right{
+    text-align: center;
+  }
+  .margin-left{
+    margin-left: 0;
+  }
+  .margin-right{
+    margin-right: 0;
+  }
+  .features-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+}

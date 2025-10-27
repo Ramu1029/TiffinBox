@@ -1,0 +1,42 @@
+.review-card{
+    width: 200px;
+}
+@media screen and (max-width: 768px){
+    .review-card{
+        width: 100%;
+    }
+}
+.rating{
+    height: 20px;
+    width: auto;
+}
+.review{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.review-separator{
+    border: none;
+    height: 1px;
+    background-color: #2E2E2E;
+}
+.review-profile-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile{
+    height: 30px;
+    width: 30px;
+
+}
+.name{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.time{
+    font-size: 12px;
+}

@@ -1,0 +1,44 @@
+.menu-card {
+  background-color: #111111;
+  padding: 40px;
+  border-radius: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+}
+
+.menu-card:hover {
+  opacity: 1;
+  transform: translateY(-6px) scale(1.05); 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35); 
+  background-color: #1a1a1a; 
+}
+ 
+.dish-image {
+  height: 170px;
+  width: 170px;
+}
+
+.card-content {
+  margin-top: 10px;
+}
+.item-name {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  text-align: center;
+}
+.cost {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  text-align: center;
+}

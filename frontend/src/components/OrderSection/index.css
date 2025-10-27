@@ -1,0 +1,115 @@
+.order-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+.large-device-view {
+  display: block;
+}
+.mobile-view {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .order-section {
+    text-align: center;
+    gap: 15px;
+    width: 100%;
+  }
+  .large-device-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+  }
+}
+
+.online-order-header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.online-order-content {
+  width: 45%;
+}
+@media screen and (max-width: 768px) {
+  .online-order-content {
+    width: 100%;
+  }
+}
+.online-order-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fcb017;
+  text-transform: uppercase;
+}
+.online-order-sub-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.online-order-footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.online-order-description {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.food-item {
+  align-self: flex-end;
+  height: 100px;
+  width: 100px;
+}
+
+.bike-sketch-container {
+  margin-top: 60px;
+  align-self: flex-end;
+}
+.bike-sketch {
+  height: 280px;
+  width: 100%;
+}
+
+.online-order-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #9a9a9a;
+  border: 1px solid #9a9a9a;
+  outline: none;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.online-order-btn:hover {
+  background-color: #9a9a9a;
+  color: #111111;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(136, 130, 130, 0.15);
+}
+.bike-sketch-bg-container {
+  height: 200px;
+  width: auto;
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobile-view-order-now-btn {
+  align-self: flex-start;
+}

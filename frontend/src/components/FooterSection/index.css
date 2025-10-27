@@ -1,0 +1,88 @@
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background-color: #000000;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.footer-section-app-logo {
+  height: 106px;
+  width: 86px;
+}
+.footer-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.email-subscribe{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.email {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #9a9a9a;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+  width: 300px;
+  padding: 10px;
+}
+.subscribe{
+    padding: 10px 20px;
+  background-color: transparent;
+  color: #9a9a9a;
+  border: 1px solid #9a9a9a;
+  outline: none;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+.subscribe:hover {
+  background-color: #9a9a9a;
+  color: #0a0a0a;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(26, 25, 25, 0.15);
+}
+.contact-us-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact-us-heading{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+.contact-us-section-paragraph{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+    font-size: 14px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.footer-paragraph{
+    font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+    font-size: 13px;
+  font-weight: 300;
+  color: #9a9a9a;
+}

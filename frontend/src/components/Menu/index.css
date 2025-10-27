@@ -1,0 +1,104 @@
+.menu-section {
+  position: relative;
+  padding: 60px 0px 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .menu-section {
+    padding: 40px 0px 20px 0px;
+    width: 100%;
+  }
+}
+.menu-header-content {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.bg-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 65vw;
+  height: 65vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.8;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.menu-header-content,
+.menu-list-container {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fcb017;
+  text-transform: uppercase;
+}
+.menu-sub-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+@media screen and (max-width: 768px) {
+  .menu-sub-heading {
+    font-size: 18px;
+  }
+}
+
+.menu-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  background-size: "cover";
+  background-position: "center";
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-list-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.explore-menu-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #9A9A9A;
+  border: 1px solid #9A9A9A;
+  outline: none;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+
+}
+.explore-menu-btn:hover {
+  background-color: #ffffff;
+  color: #B58F42;
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 10px rgba(136, 130, 130, 0.15);
+}

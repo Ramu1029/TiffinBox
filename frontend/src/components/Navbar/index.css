@@ -1,0 +1,54 @@
+.navbar-container {
+  height: 60px;
+  background-color: transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navbar-logo {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-decoration: none;
+}
+.navItem-list-container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+  padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .navItem-list-container {
+    display: none;
+  }
+}
+.nav-item {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9a9a9a;
+  text-decoration: none;
+}
+.view-menu-button {
+  padding: 10px 20px;
+  background-color: #fcb017;
+  color: #0a0a0a;
+  border: none;
+  outline: none;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn-layout {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

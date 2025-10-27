@@ -1,0 +1,72 @@
+.chef-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .chef-section {
+    width: 100%;
+  }
+}
+.spoon {
+  height: 130px;
+  width: 130px;
+  margin-bottom: 20px;
+}
+.section-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fcb017;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.section-sub-heading {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+.chef-details {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  text-align: start;
+
+}
+@media screen and (max-width: 768px) {
+  .chef-details {
+    flex-direction: column;
+    text-align: center;
+  }
+  .chef-pic{
+    margin: 0 auto;
+  }
+}
+.chef-pic {
+  height: 380px;
+  width: 350px;
+}
+.chef-fullname {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  color: #9a9a9a;
+  text-transform: uppercase;
+}
+.chef-role {
+  margin: 0;
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
+.chef-description {
+  font-family: "Proxima Nova", "Avenir Next", "Avenir", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #9a9a9a;
+}
